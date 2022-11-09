@@ -58,7 +58,7 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 
 <body>
@@ -451,10 +451,11 @@
 <blockquote>
 <p> 2.如何引入js文件</p>
 <p> 引入外部js</p>
- <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;.js文件存放路径&quot;&gt;&lt;/script&gt;这个方法是在外部单独建立一个js文件，页面中所有的js都在这一个页面中。易于维护，方便多次使用。</span><br></pre></td></tr></table></figure>
-
+<pre><code>&lt;script src=&quot;.js文件存放路径&quot;&gt;&lt;/script&gt;这个方法是在外部单独建立一个js文件，页面中所有的js都在这一个页面中。易于维护，方便多次使用。
+</code></pre>
 <p> 当前页面中</p>
- <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">直接把js效果写在&lt;script&gt;&lt;/script&gt;标签中即可。这部分内容可以放在页面中的任何位置。但是一般放在页面的底部。这样的话便于页面加载完成再执行js文件。</span><br></pre></td></tr></table></figure>
+<pre><code>直接把js效果写在&lt;script&gt;&lt;/script&gt;标签中即可。这部分内容可以放在页面中的任何位置。但是一般放在页面的底部。这样的话便于页面加载完成再执行js文件。
+</code></pre>
 </blockquote>
 <h2 id="三-变量的概念-重点"><a href="#三-变量的概念-重点" class="headerlink" title="三. 变量的概念 - 重点"></a>三. 变量的概念 - 重点</h2><blockquote>
 <p>1.概念：</p>
@@ -485,16 +486,14 @@
 <blockquote>
 <p>关键字：一组具有特定用途的关键字，这些关键字可用于表示控制语句的开始或结束，或者用于执行特定操作等。</p>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">break do instanceof typeof case else new var catch finally return void  continue for switch while debugger function this with default if throw delete in try</span><br></pre></td></tr></table></figure>
-
+<pre><code>break do instanceof typeof case else new var catch finally return void  continue for switch while debugger function this with default if throw delete in try
+</code></pre>
 <blockquote>
 <p>保留字：尽管保留字在这门语言中还没有任何特定的用途，但它们有可能在将来被用作关键字。</p>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">abstract enum int short boolean export interface static byte extends long super char final native synchronized</span><br><span class="line">class float package throws const goto private transient debugger implements protected volatile double import public</span><br></pre></td></tr></table></figure>
-
-
-
-
+<pre><code>abstract enum int short boolean export interface static byte extends long super char final native synchronized
+class float package throws const goto private transient debugger implements protected volatile double import public
+</code></pre>
 <h2 id="四-变量的数据类型"><a href="#四-变量的数据类型" class="headerlink" title="四.变量的数据类型"></a>四.变量的数据类型</h2><blockquote>
 <p>ECMAScript5 之前有 5 种简单数据类型：number数字 、 string字符串、boolean布尔值、undefined未定义、null空对象。</p>
 <p>还有一种复杂数据类型（引用类型）——object</p>
@@ -562,13 +561,61 @@
 <p>2.var k&#x3D;0;  console.log(k++ + ++k +k +k++ );</p>
 <p>3.输入一个五位数，分别输出个十百千万位；</p>
 <p>4.基本测试题，并写出详细理由;</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">var bar = true;</span><br><span class="line"></span><br><span class="line">console.log(bar + 0);</span><br><span class="line"></span><br><span class="line">console.log(bar + &quot;xyz&quot;);</span><br><span class="line"></span><br><span class="line">console.log(bar + true);</span><br><span class="line"></span><br><span class="line">console.log(bar + false);</span><br></pre></td></tr></table></figure>
+<pre><code>var bar = true;
+
+console.log(bar + 0);
+
+console.log(bar + &quot;xyz&quot;);
+
+console.log(bar + true);
+
+console.log(bar + false);
+</code></pre>
 </blockquote>
 <blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">console.log(1 == true);</span><br><span class="line"></span><br><span class="line">console.log(1 === true);</span><br><span class="line"></span><br><span class="line">console.log(isNaN(23));</span><br><span class="line"></span><br><span class="line">console.log(isNaN(&#x27;shuai&#x27;));</span><br><span class="line"></span><br><span class="line">console.log(isNaN(&#x27;321shuai&#x27;));</span><br><span class="line"></span><br><span class="line">console.log(isNaN(&#x27;321&#x27;));</span><br><span class="line"></span><br><span class="line">console.log(NaN === NaN);</span><br><span class="line"></span><br><span class="line">console.log(typeof NaN);</span><br><span class="line"></span><br><span class="line">console.log(1 + +&quot;2&quot; + &quot;2&quot;);</span><br><span class="line"></span><br><span class="line">console.log(&quot;A&quot; - &quot;B&quot; + &quot;2&quot;);</span><br><span class="line"></span><br><span class="line">console.log(&quot;A&quot; - &quot;B&quot; + 2);</span><br><span class="line"></span><br><span class="line">console.log(0 || 2 || 1)</span><br><span class="line"></span><br><span class="line">console.log(0 &amp;&amp; 0 &amp;&amp; false);</span><br><span class="line"></span><br><span class="line">console.log(0.2 + 0.4 == 0.6);</span><br><span class="line"></span><br><span class="line">console.log(Boolean(&#x27;0&#x27;));</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre><code>console.log(1 == true);
 
+console.log(1 === true);
+
+console.log(isNaN(23));
+
+console.log(isNaN(&#39;shuai&#39;));
+
+console.log(isNaN(&#39;321shuai&#39;));
+
+console.log(isNaN(&#39;321&#39;));
+
+console.log(NaN === NaN);
+
+console.log(typeof NaN);
+
+console.log(1 + +&quot;2&quot; + &quot;2&quot;);
+
+console.log(&quot;A&quot; - &quot;B&quot; + &quot;2&quot;);
+
+console.log(&quot;A&quot; - &quot;B&quot; + 2);
+
+console.log(0 || 2 || 1)
+
+console.log(0 &amp;&amp; 0 &amp;&amp; false);
+
+console.log(0.2 + 0.4 == 0.6);
+
+console.log(Boolean(&#39;0&#39;));
+</code></pre>
 <p>5.基本测试题，并写出理由;</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">var a = 10;</span><br><span class="line"></span><br><span class="line">var b = 20;</span><br><span class="line"></span><br><span class="line">var c = 10;</span><br><span class="line"></span><br><span class="line">console.log(a = b);</span><br><span class="line"></span><br><span class="line">console.log(a == b);</span><br><span class="line"></span><br><span class="line">console.log(a == c);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre><code>var a = 10;
+
+var b = 20;
+
+var c = 10;
+
+console.log(a = b);
+
+console.log(a == b);
+
+console.log(a == c);
+</code></pre>
 </blockquote>
 <h2 id="十一-学习网站"><a href="#十一-学习网站" class="headerlink" title="十一.学习网站"></a>十一.学习网站</h2><blockquote>
 <p>CSDN：<a target="_blank" rel="noopener" href="https://www.csdn.net/">https://www.csdn.net/</a> </p>
@@ -720,18 +767,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/11/08/RootBn/">
+                <a href="/2022/11/09/html/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="前端开发">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="HTML5 语义化标签">
                         
-                        <span class="card-title">前端开发</span>
+                        <span class="card-title">HTML5 语义化标签</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -741,9 +787,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-08
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-11-09
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -752,12 +798,11 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
-                        <span class="chip bg-color">前端开发</span>
+                    <a href="/tags/html5/">
+                        <span class="chip bg-color">html5</span>
                     </a>
                     
                 </div>
@@ -956,9 +1001,9 @@
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="461347998"
                    fixed='true'
-                   autoplay='false'
+                   autoplay='true'
                    theme='#42b983'
                    loop='all'
                    order='random'
@@ -984,11 +1029,11 @@
             
             <a href="/about" target="_blank">朱冬宇</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/Rootbtn" target="_blank">RootBtn</a>
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">2.1k</span>
+                        class="white-color">2.7k</span>
             
             
             
@@ -1030,7 +1075,7 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2598465411" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2598465411" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2498465411" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2498465411" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
