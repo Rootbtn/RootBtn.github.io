@@ -20,6 +20,15 @@
     <title>Hello World | RootBtn</title>
     <link rel="icon" type="image/jpeg" href="/3-211101134512M7.jpg">
     
+    <style>
+        body{
+            background-image: url(https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg);
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+            background-attachment:fixed;
+        }
+    </style>
+
 
 
     <!-- bg-cover style     -->
@@ -331,6 +340,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -361,9 +383,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Hello-World/">
+                                <span class="chip bg-color">Hello World</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -379,6 +405,11 @@
                 </div>
                 
 
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2022-11-09
+                </div>
                 
 
                 
@@ -407,6 +438,11 @@
 
         
 
+        
+        <!-- 代码块折行 -->
+        <style type="text/css">
+            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
+        </style>
         
 
         <div class="card-content article-card-content">
@@ -487,7 +523,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Hello-World/">
+                                    <span class="chip bg-color">Hello World</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -500,6 +540,9 @@
     <script src="/libs/share/js/social-share.min.js"></script>
     
 
+    
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid="></script>
+    <div class="addthis_inline_share_toolbox"></div>
     
 
 </div>
@@ -572,9 +615,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="前端开发">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="web开发">
                         
-                        <span class="card-title">前端开发</span>
+                        <span class="card-title">web开发</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -589,8 +632,12 @@
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            朱冬宇
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/web%E5%89%8D%E7%AB%AF/" class="post-category">
+                                    web前端
+                                </a>
+                            
                             
                         </span>
                     </div>
@@ -598,8 +645,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">
-                        <span class="chip bg-color">前端开发</span>
+                    <a href="/tags/web%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">web前端</span>
                     </a>
                     
                 </div>
@@ -641,6 +688,14 @@
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hello-World/">
+                        <span class="chip bg-color">Hello World</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -831,7 +886,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">2.7k</span>
+                        class="white-color">3.1k</span>
             
             
             
@@ -1093,9 +1148,20 @@ $(function () {
     <!--腾讯兔小巢-->
     
     
-
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签, RootBtn">
+    <meta name="keywords" content="分类: HTML5, RootBtn">
     <meta name="description" content="个人博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签 | RootBtn</title>
+    <title>分类: HTML5 | RootBtn</title>
     <link rel="icon" type="image/jpeg" href="/3-211101134512M7.jpg">
     
     <style>
@@ -391,64 +391,112 @@
 
     
 
-<div id="tags" class="container chip-container">
+<div id="category-cloud" class="container chip-container">
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
             </div>
             <div class="tag-chips">
                 
                 
-                <a href="/tags/web%E5%89%8D%E7%AB%AF/" title="web前端: 3">
+                
+                <a href="/categories/web%E5%89%8D%E7%AB%AF/" title="web前端: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="web前端" style="background-color: #F9EBEA;">web前端
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Hello-World/" title="Hello World: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Hello World" style="background-color: #F5EEF8;">Hello World
+                            style="background-color: #F9EBEA;">web前端
                         <span class="tag-length">1</span>
                     </span>
                 </a>
+                
+                
+                <a href="/categories/git/" title="git: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">git
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/HTML5/" title="HTML5: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #D5F5E3;">HTML5
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
                 
             </div>
         </div>
     </div>
 </div>
 
-    
-    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
-<style type="text/css">
-    #tag-wordcloud {
-        width: 100%;
-        height: 300px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="tag-wordcloud" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
-<script type="text/javascript">
-    
-
-    $('#tag-wordcloud').jQCloud([{"text":"web前端","weight":3,"link":"/tags/web前端/"},{"text":"Hello World","weight":1,"link":"/tags/Hello-World/"}], {
-        autoResize: true
-    });
-</script>
 
     
 
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2022/11/09/html/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="HTML5 语义化标签">
+                            
+                            <span class="card-title">HTML5 语义化标签</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                有助于团队合作的css命名规范常用的css命名规则快捷导航栏: shortcut
+头部：header
+标志: logo
+购物车: shopcar
+内容：content&#x2F;container
+尾：footer
+导航：nav
+导航左侧:
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-09
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/HTML5/" class="post-category">
+                                    HTML5
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/web%E5%89%8D%E7%AB%AF/">
+                            <span class="chip bg-color">web前端</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </article>
 </main>
+
+
 
 
     <footer class="page-footer bg-color">
