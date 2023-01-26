@@ -467,7 +467,7 @@ git config –global us">
 <p>git config user.name</p>
 <p>3、配置个人的用户名称和电子邮件地址</p>
 <p>git config –global user.name “runoob”</p>
-<p>git config –global user.email <a href="mailto:&#x74;&#101;&#x73;&#116;&#64;&#114;&#x75;&#110;&#111;&#111;&#x62;&#46;&#x63;&#111;&#x6d;">&#x74;&#101;&#x73;&#116;&#64;&#114;&#x75;&#110;&#111;&#111;&#x62;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>git config –global user.email <a href="mailto:&#x74;&#x65;&#x73;&#116;&#64;&#114;&#x75;&#x6e;&#111;&#x6f;&#x62;&#46;&#99;&#x6f;&#109;">&#x74;&#x65;&#x73;&#116;&#64;&#114;&#x75;&#x6e;&#111;&#x6f;&#x62;&#46;&#99;&#x6f;&#109;</a></p>
 <p>4、git基本概念</p>
 <p>Git 工作区、暂存区和版本库概念：</p>
 <p>工作区：就是你在电脑里能看到的目录。</p>
@@ -752,6 +752,43 @@ git config –global us">
 </div>
 
 
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('60')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: RootBtn<br />'
+            + '文章作者: 小白<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
 
 <!-- 代码块功能依赖 -->
 <script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
@@ -904,7 +941,7 @@ git config –global us">
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/Rootbtn" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/Rootbtn/Rootbtn" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
@@ -925,10 +962,6 @@ git config –global us">
     </a>
 
 
-
-    <a href="https://weibo.com/rootbtn" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/rootbtn" data-position="top" data-delay="50">
-        <i class="fab fa-weibo"></i>
-    </a>
 
 
 
@@ -1140,16 +1173,16 @@ $(function () {
     <!--腾讯兔小巢-->
     
     
-    <script type="text/javascript" color="0,0,255"
-        pointColor="0,0,255" opacity='0.7'
+    <script type="text/javascript" color="0,0,66"
+        pointColor="0,0,66" opacity='0.7'
         zIndex="-1" count="99"
         src="/libs/background/canvas-nest.js"></script>
     
 
     
     
-    <script type="text/javascript" size="150" alpha='0.6'
-        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    <script type="text/javascript" size="90" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon.min.js" async="async"></script>
     
 
     
