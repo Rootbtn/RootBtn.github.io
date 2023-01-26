@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="git的基础使用, RootBtn">
-    <meta name="description" content="参考文档一.git的基本使用">
+    <meta name="keywords" content="js数组去重（六种方法）, RootBtn">
+    <meta name="description" content="参考文档一.js数组去重（六种方法）我自己总结的，只知道这六种去重，其他的不经常用！！！原数组const arr &amp;#x3D; [1, 1, ‘1’, 17, true, true, false, false, ‘true’, ‘a’, {">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>git的基础使用 | RootBtn</title>
+    <title>js数组去重（六种方法） | RootBtn</title>
     <link rel="icon" type="image/jpeg" href="/3-211101134512M7.jpg">
     
     <style>
@@ -356,12 +356,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">git的基础使用</h1>
+                    <h1 class="description center-align post-title">js数组去重（六种方法）</h1>
                 </div>
             </div>
         </div>
@@ -424,14 +424,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    11
+                    837
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -456,7 +456,79 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><h2 id="一-git的基本使用"><a href="#一-git的基本使用" class="headerlink" title="一.git的基本使用"></a>一.git的基本使用</h2>
+                <h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><h2 id="一-js数组去重（六种方法）"><a href="#一-js数组去重（六种方法）" class="headerlink" title="一.js数组去重（六种方法）"></a>一.js数组去重（六种方法）</h2><h2 id="我自己总结的，只知道这六种去重，其他的不经常用！！！"><a href="#我自己总结的，只知道这六种去重，其他的不经常用！！！" class="headerlink" title="我自己总结的，只知道这六种去重，其他的不经常用！！！"></a>我自己总结的，只知道这六种去重，其他的不经常用！！！</h2><h1 id="原数组"><a href="#原数组" class="headerlink" title="原数组"></a>原数组</h1><p>const arr &#x3D; [1, 1, ‘1’, 17, true, true, false, false, ‘true’, ‘a’, {}, {}];</p>
+<h1 id="1-new-Set（数组ES6新增的特性）"><a href="#1-new-Set（数组ES6新增的特性）" class="headerlink" title="1.new Set（数组ES6新增的特性）"></a>1.new Set（数组ES6新增的特性）</h1><p>Set是一系列无序、没有重复值的数据集合，传入一个需要去重的数组，Set会自动删除重复的元素<br>再将Set转数组返回。此方法效率高，代码清晰，缺点是存在兼容性问题</p>
+<pre><code>const newArr = [...new Set(arr)];
+console.log(newArr);// [1, &#39;1&#39;, 17, true, false, &#39;true&#39;, &#39;a&#39;, &#123;&#125;, &#123;&#125;]
+</code></pre>
+<h1 id="2-new-Map（MapES6新增的特性）"><a href="#2-new-Map（MapES6新增的特性）" class="headerlink" title="2.new Map（MapES6新增的特性）"></a>2.new Map（MapES6新增的特性）</h1><p>利用Map的键值对同名覆盖，再将Map转数组</p>
+<pre><code>const m = new Map();
+for (let i = 0; i &lt; arr.length; i++) &#123;
+    m.set(arr[i], arr[i]);
+&#125;
+const newArr = []
+m.forEach(function (value, key) &#123;
+    newArr .push(value)
+&#125;)
+console.log(newArr );//[1, &#39;1&#39;, 17, true, false, &#39;true&#39;, &#39;a&#39;, &#123;&#125;, &#123;&#125;]
+</code></pre>
+<h1 id="3-indexOf（下标属性来查询）"><a href="#3-indexOf（下标属性来查询）" class="headerlink" title="3.indexOf（下标属性来查询）"></a>3.indexOf（下标属性来查询）</h1><p>利用对象属性key排除重复项<br>遍历数组，每次判断新数组中是否存在该属性，不存在就存储在新数组中<br>并把数组元素作为key，最后返回新数组<br>这个方法的优点是效率高，缺点是使用了额外空间</p>
+<pre><code>var newArr = [];
+arr.forEach((key,index)=&gt;&#123;
+    if(newArr.indexOf(key) === -1)&#123;
+        newArr.push(key)
+　　&#125;        &#125;)
+console.log(newArr);// [1, &#39;1&#39;, 17, true, false, &#39;true&#39;, &#39;a&#39;, &#123;&#125;, &#123;&#125;]
+</code></pre>
+<h1 id="4-sort-数组排序"><a href="#4-sort-数组排序" class="headerlink" title="4.sort(数组排序)"></a>4.sort(数组排序)</h1><p>先使用sort方法对传入函数的数组进行从小到大排序，然后创建一个新数组，先将排序好的数组的第一个元素添加到新数组中<br>然后从第二个元素开始遍历排序好的数组，让每个数组元素都和它的前一个元素比较，如果他们的值不相同，则将该元素值添加到新数组中，最终返回这个新数组。</p>
+<pre><code>function uniqArr(arr) &#123;
+  var sortArr = arr.sort(function (a, b) &#123;
+    return a - b
+  &#125;)
+  var newArr = []
+  newArr[0] = sortArr[0]
+  for (var i = 1; i &lt; sortArr.length; i++) &#123;
+    if (sortArr[i] != sortArr[i - 1]) &#123;
+      newArr.push(sortArr[i])
+    &#125;
+  &#125;
+  return newArr
+&#125;
+</code></pre>
+<h1 id="5-splice-方法去重"><a href="#5-splice-方法去重" class="headerlink" title="5.splice()方法去重"></a>5.splice()方法去重</h1><p>遍历传递进函数的数组，让它和它之后的每一个元素进行比较，如果后边的元素中，有和它的值相等的，就将这个元素通过splice方法删除，然后对应的将数组长度-1，相应下标-1</p>
+<pre><code>function uniqArr(arr) &#123;
+  var len = arr.length
+  for (var i = 0; i &lt; len; i++) &#123;
+    for (var j = i + 1; j &lt; len; j++) &#123;
+      if (arr[i] == arr[j]) &#123;
+        arr.splice(j, 1)
+        // 修正下标
+        j--
+        len--
+      &#125;
+ 
+    &#125;
+  &#125;
+  return arr
+&#125;
+</code></pre>
+<h1 id="6-双重for循环去重"><a href="#6-双重for循环去重" class="headerlink" title="6.双重for循环去重"></a>6.双重for循环去重</h1><p>先创建一个新的空数组，然后循环遍历传入函数的数组，每次都让遍历到的数组元素和他后边的所有元素进行比较，如果有值和它相同的，就将它的值设置为一个空字符串，比较完毕后，判断这个元素是不是也是一个空字符串，如果不是，那就将其添加到新数组中，最后返回这个新数组。</p>
+<pre><code>function uniqArr(arr) &#123;
+  var newArr = []
+  for (var i = 0; i &lt; arr.length; i++) &#123;
+    for (var j = i + 1; j &lt; arr.length; j++) &#123;
+      if (arr[i] == arr[j]) &#123;
+        arr[j] = &#39; &#39;
+      &#125;
+    &#125;
+    if (arr[i] != &#39; &#39;) &#123;
+      newArr.push(arr[i])
+    &#125;
+  &#125;
+  return newArr
+&#125;
+</code></pre>
+
                 
             </div>
             <hr/>
@@ -482,7 +554,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://rootbtn.github.io/2023/01/26/bn/">https://rootbtn.github.io/2023/01/26/bn/</a>
+                    <a href="https://rootbtn.github.io/2023/01/26/js/">https://rootbtn.github.io/2023/01/26/js/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -608,13 +680,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2023/01/26/bn/">
+                <a href="/2023/01/26/js/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="git的基础使用">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="js数组去重（六种方法）">
                         
-                        <span class="card-title">git的基础使用</span>
+                        <span class="card-title">js数组去重（六种方法）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -833,7 +905,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">3.1k</span>
+                        class="white-color">4k</span>
             
             
             
