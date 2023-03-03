@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rootxb🍋</title>
+  
+  
+  <link href="https://rootbtn.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://rootbtn.github.io/"/>
+  <updated>2023-03-03T02:51:38.555Z</updated>
+  <id>https://rootbtn.github.io/</id>
+  
+  <author>
+    <name>小白</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>那些有趣的注释，有没有你曾用过的</title>
+    <link href="https://rootbtn.github.io/2023/03/02/cheng/"/>
+    <id>https://rootbtn.github.io/2023/03/02/cheng/</id>
+    <published>2023-03-02T13:46:07.085Z</published>
+    <updated>2023-03-03T02:51:38.555Z</updated>
+    
+    <content type="html"><![CDATA[<p>闲来无事收集了一些有趣的注释，各式各样的都有，程序员真是一群有趣的人，喜欢哪一款拿走不谢</p><p>第一款：佛祖保佑，永无BUG</p><blockquote><pre><code>//                            _ooOoo_    //                           o8888888o    //                           88&quot; . &quot;88    //                           (| -_- |)    //                            O\ = /O    //                        ____/`---&#39;\____    //                      .   &#39; \\| |// `.    //                       / \\||| : |||// \    //                     / _||||| -:- |||||- \    //                       | | \\\ - /// | |    //                     | \_| &#39;&#39;\---/&#39;&#39; | |    //                      \ .-\__ `-` ___/-. /    //                   ___`. .&#39; /--.--\ `. . __    //                .&quot;&quot; &#39;&lt; `.___\_&lt;|&gt;_/___.&#39; &gt;&#39;&quot;&quot;.    //               | | : `- \`.;`\ _ /`;.`/ - ` : | |    //                 \ \ `-. \_ __\ /__ _/ .-` / /    //         ======`-.____`-.___\_____/___.-`____.-&#39;======    //                            `=---=&#39;    //    //         .............................................    //                  佛祖保佑             永无BUG</code></pre></blockquote><p>第二款：神兽护体，永无BUG</p><blockquote><pre><code>// ┏┓　　　┏┓// ┏┛┻━━━┛┻┓// ┃　　　　　　　┃ 　// ┃　　　━　　　┃// ┃　┳┛　┗┳　┃// ┃　　　　　　　┃// ┃　　　┻　　　┃// ┃　　　　　　　┃// ┗━┓　　　┏━┛// ┃　　　┃ Code is far away from bug with the animal protecting　　　　　　　　// ┃　　　┃ 神兽保护，永无BUG！// ┃　　　┗━━━┓// ┃　　　　　　　┣┓// ┃　　　　　　　┏┛// ┗┓┓┏━┳┓┏┛// ┃┫┫　┃┫┫// ┗┻┛　┗┻┛</code></pre></blockquote><blockquote><pre><code>/** *　　　　　　　　┏┓　　　┏┓+ + *　　　　　　　┏┛┻━━━┛┻┓ + + *　　　　　　　┃　　　　　　　┃ 　 *　　　　　　　┃　　　━　　　┃ ++ + + + *　　　　　　 ████━████ ┃+ *　　　　　　　┃　　　　　　　┃ + *　　　　　　　┃　　　┻　　　┃ *　　　　　　　┃　　　　　　　┃ + + *　　　　　　　┗━┓　　　┏━┛ *　　　　　　　　　┃　　　┃　　　　　　　　　　　 *　　　　　　　　　┃　　　┃ + + + + *　　　　　　　　　┃　　　┃　Code is far away from bug with the animal protecting　　　　　　　 *　　　　　　　　　┃　　　┃ + 神兽保佑,永无bug　　 *　　　　　　　　　┃　　　┃ *　　　　　　　　　┃　　　┃　　+　　　　　　　　　 *　　　　　　　　　┃　 　　┗━━━┓ + + *　　　　　　　　　┃ 　　　　　　　┣┓ *　　　　　　　　　┃ 　　　　　　　┏┛ *　　　　　　　　　┗┓┓┏━┳┓┏┛ + + + + *　　　　　　　　　　┃┫┫　┃┫┫ *　　　　　　　　　　┗┻┛　┗┻┛+ + + + */</code></pre></blockquote><p>第三款：来首程序员打油诗，笑</p><blockquote><pre><code>/** *                      江城子 . 程序员之歌 * *                  十年生死两茫茫，写程序，到天亮。 *                      千行代码，Bug何处藏。 *                  纵使上线又怎样，朝令改，夕断肠。 * *                  领导每天新想法，天天改，日日忙。 *                      相顾无言，惟有泪千行。 *                  每晚灯火阑珊处，夜难寐，加班狂。*/</code></pre></blockquote><blockquote><pre><code>/** *          写字楼里写字间，写字间里程序员； *          程序人员写程序，又拿程序换酒钱。 *          酒醒只在网上坐，酒醉还来网下眠； *          酒醉酒醒日复日，网上网下年复年。 *          但愿老死电脑间，不愿鞠躬老板前； *          奔驰宝马贵者趣，公交自行程序员。 *          别人笑我忒疯癫，我笑自己命太贱； *          不见满街漂亮妹，哪个归得程序员？ */</code></pre></blockquote><p>第四款：无尽诱惑</p><blockquote><pre><code>////                       .::::.//                     .::::::::.//                    ::::::::::://                 ..:::::::::::&#39;//              &#39;::::::::::::&#39;//                .:::::::::://           &#39;::::::::::::::..//                ..::::::::::::.//              ``:::::::::::::::://               ::::``:::::::::&#39;        .:::.//              ::::&#39;   &#39;:::::&#39;       .::::::::.//            .::::&#39;      ::::     .:::::::&#39;::::.//           .:::&#39;       :::::  .:::::::::&#39; &#39;:::::.//          .::&#39;        :::::.:::::::::&#39;      &#39;:::::.//         .::&#39;         ::::::::::::::&#39;         ``::::.//     ...:::           ::::::::::::&#39;              ``::.//    ```` &#39;:.          &#39;:::::::::&#39;                  ::::..//                       &#39;.:::::&#39;                    &#39;:&#39;````..</code></pre></blockquote><blockquote><pre><code>/** *           _.._        ,------------. *        ,&#39;      `.    ( We want you! ) *       /  __) __` \    `-,----------&#39; *      (  (`-`(-&#39;)  ) _.-&#39; *      /)  \  = /  ( *     /&#39;    |--&#39; .  \ *    (  ,---|  `-.)__` *     )(  `-.,--&#39;   _`-. *    &#39;/,&#39;          (  Uu&quot;, *     (_       ,    `/,-&#39; ) *     `.__,  : `-&#39;/  /`--&#39; *       |     `--&#39;  | *       `   `-._   / *        \        ( *        /\ .      \.  *       / |` \     ,-\ *      /  \| .)   /   \ *     ( ,&#39;|\    ,&#39;     : *     | \,`.`--&quot;/      &#125; *     `,&#39;    \  |,&#39;    / *    / &quot;-._   `-/      | *    &quot;-.   &quot;-.,&#39;|     ; *   /        _/[&quot;---&#39;&quot;&quot;] *  :        /  |&quot;-     &#39; *  &#39;           |      / *              `      | */</code></pre></blockquote><p>第五款：单身狗专用</p><blockquote><pre><code>&lt;!--                       ::                      :;J7, :,                        ::;7:                      ,ivYi, ,                       ;LLLFS:                      :iv7Yi                       :7ri;j5PL                     ,:ivYLvr                    ,ivrrirrY2X,                     :;r@Wwz.7r:                :ivu@kexianli.                    :iL7::,:::iiirii:ii;::::,,irvF7rvvLujL7ur                   ri::,:,::i:iiiiiii:i:irrv177JX7rYXqZEkvv17                ;i:, , ::::iirrririi:i:::iiir2XXvii;L8OGJr71i              :,, ,,:   ,::ir@mingyi.irii:i:::j1jri7ZBOS7ivv,                 ,::,    ::rv77iiiriii:iii:i::,rvLq@huhao.Li             ,,      ,, ,:ir7ir::,:::i;ir:::i:i::rSGGYri712:           :::  ,v7r:: ::rrv77:, ,, ,:i7rrii:::::, ir7ri7Lri          ,     2OBBOi,iiir;r::        ,irriiii::,, ,iv7Luur:        ,,     i78MBBi,:,:::,:,  :7FSL: ,iriii:::i::,,:rLqXv::        :      iuMMP: :,:::,:ii;2GY7OBB0viiii:i:iii:i:::iJqL;::       ,     ::::i   ,,,,, ::LuBBu BBBBBErii:i:i:i:i:i:i:r77ii      ,       :       , ,,:::rruBZ1MBBqi, :,,,:::,::::::iiriri:     ,               ,,,,::::i:  @arqiao.       ,:,, ,:::ii;i7:    :,       rjujLYLi   ,,:::::,:::::::::,,   ,:i,:,,,,,::i:iii    ::      BBBBBBBBB0,    ,,::: , ,:::::: ,      ,,,, ,,:::::::    i,  ,  ,8BMMBBBBBBi     ,,:,,     ,,, , ,   , , , :,::ii::i::    :      iZMOMOMBBM2::::::::::,,,,     ,,,,,,:,,,::::i:irr:i:::,    i   ,,:;u0MBMOG1L:::i::::::  ,,,::,   ,,, ::::::i:i:iirii:i:i:    :    ,iuUuuXUkFu7i:iii:i:::, :,:,: ::::::::i:i:::::iirr7iiri::    :     :rk@Yizero.i:::::, ,:ii:::::::i:::::i::,::::iirrriiiri::,     :      5BMBBBBBBSr:,::rv2kuii:::iii::,:i:,, , ,,:,:i@petermu.,          , :r50EZ8MBBBBGOBBBZP7::::i::,:::::,: :,:,::i;rrririiii::              :jujYY7LS0ujJL7r::,::i::,::::::::::::::iirirrrrrrr:ii:           ,:  :@kevensun.:,:,,,::::i:i:::::,,::::::iir;ii;7v77;ii;i,           ,,,     ,,:,::::::i:iiiii:i::::,, ::::iiiir@xingjief.r;7:i,        , , ,,,:,,::::::::iiiiiiiiii:,:,:::::::::iiir;ri7vL77rrirri::         :,, , ::::::::i:::i:::i:i::,,,,,:,::i:i:::iir;@Secbone.ii:::--&gt;</code></pre></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;闲来无事收集了一些有趣的注释，各式各样的都有，程序员真是一群有趣的人，喜欢哪一款拿走不谢&lt;/p&gt;
+&lt;p&gt;第一款：佛祖保佑，永无BUG&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;&lt;code&gt;//                            _ooOoo_    
+</summary>
+      
+    
+    
+    
+    <category term="程序员" scheme="https://rootbtn.github.io/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+    
+    <category term="程序员" scheme="https://rootbtn.github.io/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js数组去重（六种方法）</title>
+    <link href="https://rootbtn.github.io/2023/01/26/js/"/>
+    <id>https://rootbtn.github.io/2023/01/26/js/</id>
+    <published>2023-01-26T09:35:55.997Z</published>
+    <updated>2023-01-26T10:38:24.659Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><h2 id="一-js数组去重（六种方法）"><a href="#一-js数组去重（六种方法）" class="headerlink" title="一.js数组去重（六种方法）"></a>一.js数组去重（六种方法）</h2><h2 id="我自己总结的，只知道这六种去重，其他的不经常用！！！"><a href="#我自己总结的，只知道这六种去重，其他的不经常用！！！" class="headerlink" title="我自己总结的，只知道这六种去重，其他的不经常用！！！"></a>我自己总结的，只知道这六种去重，其他的不经常用！！！</h2><h1 id="原数组"><a href="#原数组" class="headerlink" title="原数组"></a>原数组</h1><p>const arr &#x3D; [1, 1, ‘1’, 17, true, true, false, false, ‘true’, ‘a’, {}, {}];</p><h1 id="1-new-Set（数组ES6新增的特性）"><a href="#1-new-Set（数组ES6新增的特性）" class="headerlink" title="1.new Set（数组ES6新增的特性）"></a>1.new Set（数组ES6新增的特性）</h1><p>Set是一系列无序、没有重复值的数据集合，传入一个需要去重的数组，Set会自动删除重复的元素<br>再将Set转数组返回。此方法效率高，代码清晰，缺点是存在兼容性问题</p><pre><code>const newArr = [...new Set(arr)];console.log(newArr);// [1, &#39;1&#39;, 17, true, false, &#39;true&#39;, &#39;a&#39;, &#123;&#125;, &#123;&#125;]</code></pre><h1 id="2-new-Map（MapES6新增的特性）"><a href="#2-new-Map（MapES6新增的特性）" class="headerlink" title="2.new Map（MapES6新增的特性）"></a>2.new Map（MapES6新增的特性）</h1><p>利用Map的键值对同名覆盖，再将Map转数组</p><pre><code>const m = new Map();for (let i = 0; i &lt; arr.length; i++) &#123;    m.set(arr[i], arr[i]);&#125;const newArr = []m.forEach(function (value, key) &#123;    newArr .push(value)&#125;)console.log(newArr );//[1, &#39;1&#39;, 17, true, false, &#39;true&#39;, &#39;a&#39;, &#123;&#125;, &#123;&#125;]</code></pre><h1 id="3-indexOf（下标属性来查询）"><a href="#3-indexOf（下标属性来查询）" class="headerlink" title="3.indexOf（下标属性来查询）"></a>3.indexOf（下标属性来查询）</h1><p>利用对象属性key排除重复项<br>遍历数组，每次判断新数组中是否存在该属性，不存在就存储在新数组中<br>并把数组元素作为key，最后返回新数组<br>这个方法的优点是效率高，缺点是使用了额外空间</p><pre><code>var newArr = [];arr.forEach((key,index)=&gt;&#123;    if(newArr.indexOf(key) === -1)&#123;        newArr.push(key)　　&#125;        &#125;)console.log(newArr);// [1, &#39;1&#39;, 17, true, false, &#39;true&#39;, &#39;a&#39;, &#123;&#125;, &#123;&#125;]</code></pre><h1 id="4-sort-数组排序"><a href="#4-sort-数组排序" class="headerlink" title="4.sort(数组排序)"></a>4.sort(数组排序)</h1><p>先使用sort方法对传入函数的数组进行从小到大排序，然后创建一个新数组，先将排序好的数组的第一个元素添加到新数组中<br>然后从第二个元素开始遍历排序好的数组，让每个数组元素都和它的前一个元素比较，如果他们的值不相同，则将该元素值添加到新数组中，最终返回这个新数组。</p><pre><code>function uniqArr(arr) &#123;  var sortArr = arr.sort(function (a, b) &#123;    return a - b  &#125;)  var newArr = []  newArr[0] = sortArr[0]  for (var i = 1; i &lt; sortArr.length; i++) &#123;    if (sortArr[i] != sortArr[i - 1]) &#123;      newArr.push(sortArr[i])    &#125;  &#125;  return newArr&#125;</code></pre><h1 id="5-splice-方法去重"><a href="#5-splice-方法去重" class="headerlink" title="5.splice()方法去重"></a>5.splice()方法去重</h1><p>遍历传递进函数的数组，让它和它之后的每一个元素进行比较，如果后边的元素中，有和它的值相等的，就将这个元素通过splice方法删除，然后对应的将数组长度-1，相应下标-1</p><pre><code>function uniqArr(arr) &#123;  var len = arr.length  for (var i = 0; i &lt; len; i++) &#123;    for (var j = i + 1; j &lt; len; j++) &#123;      if (arr[i] == arr[j]) &#123;        arr.splice(j, 1)        // 修正下标        j--        len--      &#125;     &#125;  &#125;  return arr&#125;</code></pre><h1 id="6-双重for循环去重"><a href="#6-双重for循环去重" class="headerlink" title="6.双重for循环去重"></a>6.双重for循环去重</h1><p>先创建一个新的空数组，然后循环遍历传入函数的数组，每次都让遍历到的数组元素和他后边的所有元素进行比较，如果有值和它相同的，就将它的值设置为一个空字符串，比较完毕后，判断这个元素是不是也是一个空字符串，如果不是，那就将其添加到新数组中，最后返回这个新数组。</p><pre><code>function uniqArr(arr) &#123;  var newArr = []  for (var i = 0; i &lt; arr.length; i++) &#123;    for (var j = i + 1; j &lt; arr.length; j++) &#123;      if (arr[i] == arr[j]) &#123;        arr[j] = &#39; &#39;      &#125;    &#125;    if (arr[i] != &#39; &#39;) &#123;      newArr.push(arr[i])    &#125;  &#125;  return newArr&#125;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;参考文档&quot;&gt;&lt;a href=&quot;#参考文档&quot; class=&quot;headerlink&quot; title=&quot;参考文档&quot;&gt;&lt;/a&gt;参考文档&lt;/h2&gt;&lt;h2 id=&quot;一-js数组去重（六种方法）&quot;&gt;&lt;a href=&quot;#一-js数组去重（六种方法）&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    <category term="web前端" scheme="https://rootbtn.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="web前端" scheme="https://rootbtn.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML5 语义化标签</title>
+    <link href="https://rootbtn.github.io/2022/11/09/html/"/>
+    <id>https://rootbtn.github.io/2022/11/09/html/</id>
+    <published>2022-11-09T07:27:51.000Z</published>
+    <updated>2023-01-26T10:28:43.610Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="有助于团队合作的css命名规范"><a href="#有助于团队合作的css命名规范" class="headerlink" title="有助于团队合作的css命名规范"></a>有助于团队合作的css命名规范</h2><h4 id="常用的css命名规则"><a href="#常用的css命名规则" class="headerlink" title="常用的css命名规则"></a>常用的css命名规则</h4><p>快捷导航栏: shortcut</p><p>头部：header</p><p>标志: logo</p><p>购物车: shopcar</p><p>内容：content&#x2F;container</p><p>尾：footer</p><p>导航：nav</p><p>导航左侧: dropdown 包含.dd .dt</p><p>导航右侧: navitems</p><p>侧栏：sidebar</p><p>栏目：column</p><p>左右中：left right center</p><p>登录条：loginbar</p><p>广告：banner</p><p>页面主体：main</p><p>热点：hot</p><p>新闻：news</p><p>下载：download</p><p>子导航：subnav</p><p>菜单：menu</p><p>子菜单：submenu</p><p>搜索：search</p><p>友情链接：friendlink</p><p>页脚：footer</p><p>版权：copyright</p><p>滚动：scroll</p><p>内容：content</p><p>标签页：tab</p><p>文章列表：list</p><p>提示信息：msg</p><p>小技巧：tips</p><p>栏目标题：title</p><p>加入：joinus</p><p>指南：guild</p><p>注册：regsiter</p><p>状态：status</p><p>投票：vote</p><p>合作伙伴：partner</p><p>页面外围控制整体布局宽度：wrapper</p><p>页面底部服务模块: mod_service</p><p>页面底部帮助模块: mod_help</p><p>页面底部版权模块: mod_copyright</p><p>id的命名:<br>(1)页面结构<br>容器: container</p><p>页头：header</p><p>内容：content&#x2F;container</p><p>页面主体：main</p><p>页尾：footer</p><p>导航：nav</p><p>侧栏：sidebar</p><p>栏目：column</p><p>页面外围控制整体布局宽度：wrapper</p><p>左右中：left right center</p><p>(2)导航<br>导航：nav</p><p>主导航：mainbav</p><p>子导航：subnav</p><p>顶导航：topnav</p><p>边导航：sidebar</p><p>左导航：leftsidebar</p><p>右导航：rightsidebar</p><p>菜单：menu</p><p>子菜单：submenu</p><p>标题: title</p><p>摘要: summary</p><p>(3)功能<br>标志：logo</p><p>广告：banner</p><p>登陆：login</p><p>登录条：loginbar</p><p>注册：regsiter</p><p>搜索：search</p><p>功能区：shop</p><p>标题：title</p><p>加入：joinus</p><p>状态：status</p><p>按钮：btn</p><p>滚动：scroll</p><p>标签页：tab</p><p>文章列表：list</p><p>提示信息：msg</p><p>当前的: current</p><p>小技巧：tips</p><p>图标: icon</p><p>注释：note</p><p>指南：guild</p><p>服务：service</p><p>热点：hot</p><p>新闻：news</p><p>下载：download</p><p>投票：vote</p><p>合作伙伴：partner</p><p>友情链接：link</p><p>版权：copyright</p><p>(四)class的命名:<br>(1)颜色:使用颜色的名称或者16进制代码,如<br>.red { color: red; }</p><p>.ccc { color: #ccc; }</p><p>.f5f5f5 { color: #f5f5f5; }</p><p>(2)字体大小,直接使用”font+字体大小”作为名称,如<br>.font12px { font-size: 12px; }</p><p>.font9pt {font-size: 9pt; }</p><p>(3)对齐样式,使用对齐目标的英文名称,如<br>.left { float:left; }</p><p>.bottom { float:bottom; }</p><p>注意事项:<br>css部分<br>主要的 master.css</p><p>模块 module.css</p><p>基本共用 base.css</p><p>布局，版面 layout.css</p><p>主题 themes.css</p><p>专栏 columns.css</p><p>文字 font.css</p><p>表单 forms.css</p><p>补丁 mend.css</p><h2 id="打印-print-css"><a href="#打印-print-css" class="headerlink" title="打印 print.css"></a>打印 print.css</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;有助于团队合作的css命名规范&quot;&gt;&lt;a href=&quot;#有助于团队合作的css命名规范&quot; class=&quot;headerlink&quot; title=&quot;有助于团队合作的css命名规范&quot;&gt;&lt;/a&gt;有助于团队合作的css命名规范&lt;/h2&gt;&lt;h4 id=&quot;常用的css命名规则&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="HTML5" scheme="https://rootbtn.github.io/categories/HTML5/"/>
+    
+    
+    <category term="web前端" scheme="https://rootbtn.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git</title>
+    <link href="https://rootbtn.github.io/2022/11/09/git/"/>
+    <id>https://rootbtn.github.io/2022/11/09/git/</id>
+    <published>2022-11-09T05:15:04.000Z</published>
+    <updated>2022-11-09T11:20:36.421Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1、用特定的软件打开文件"><a href="#1、用特定的软件打开文件" class="headerlink" title="1、用特定的软件打开文件"></a>1、用特定的软件打开文件</h2><p>open -a 软件名称 文件目录</p><p>2、git查看配置信息</p><p>git config –list</p><p>git config user.name</p><p>3、配置个人的用户名称和电子邮件地址</p><p>git config –global user.name “runoob”</p><p>git config –global user.email <a href="mailto:&#116;&#101;&#115;&#116;&#x40;&#114;&#x75;&#110;&#x6f;&#111;&#98;&#x2e;&#x63;&#111;&#109;">&#116;&#101;&#115;&#116;&#x40;&#114;&#x75;&#110;&#x6f;&#111;&#98;&#x2e;&#x63;&#111;&#109;</a></p><p>4、git基本概念</p><p>Git 工作区、暂存区和版本库概念：</p><p>工作区：就是你在电脑里能看到的目录。</p><p>暂存区：英文叫 stage 或 index。一般存放在 .git 目录下的 index 文件（.git&#x2F;index）中，所以我们把暂存区有时也叫作索引（index）。</p><p>版本库：工作区有一个隐藏目录 .git，这个不算工作区，而是 Git 的版本库</p><p>5、git提交代码到仓库</p><p>git add *.c</p><p>git add README</p><p>git commit -m ‘初始化项目版本’</p><p>git init</p><p>git add .</p><p>git commit</p><p>6、拷贝项目到本地</p><p>git clone 链接url</p><p>7、提交与修改</p><p>git add 添加文件到仓库</p><p>git status 查看仓库当前的状态，显示有变更的文件。</p><p>git diff 比较文件的不同，即暂存区和工作区的差异。</p><p>git commit 提交暂存区到本地仓库。</p><p>git reset 回退版本。</p><p>git rm 删除工作区文件。</p><p>git mv 移动或重命名工作区文件。</p><p>8、提交日志</p><p>git log 查看历史提交记录</p><p>git blame <file> 以列表形式查看指定文件的历史修改记录</p><p>9、远程操作</p><p>git remote 远程仓库操作</p><p>git fetch 从远程获取代码库</p><p>git pull 下载远程代码并合并</p><p>git push 上传远程代码并合并</p><p>10、Git 分支管理</p><p>git branch 查看分支</p><p>git branch aa 添加分支aa</p><p>git checkout aa 切换到aa分支</p><p>git branch -d aa 删除aa分支</p><h2 id="git-branch-d-aa-合并完后就可以删除分支"><a href="#git-branch-d-aa-合并完后就可以删除分支" class="headerlink" title="git branch -d aa 合并完后就可以删除分支:"></a>git branch -d aa 合并完后就可以删除分支:</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1、用特定的软件打开文件&quot;&gt;&lt;a href=&quot;#1、用特定的软件打开文件&quot; class=&quot;headerlink&quot; title=&quot;1、用特定的软件打开文件&quot;&gt;&lt;/a&gt;1、用特定的软件打开文件&lt;/h2&gt;&lt;p&gt;open -a 软件名称 文件目录&lt;/p&gt;
+&lt;p&gt;2、git</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://rootbtn.github.io/categories/git/"/>
+    
+    
+    <category term="web前端" scheme="https://rootbtn.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>web开发</title>
+    <link href="https://rootbtn.github.io/2022/11/08/RootBn/"/>
+    <id>https://rootbtn.github.io/2022/11/08/RootBn/</id>
+    <published>2022-11-08T13:37:46.000Z</published>
+    <updated>2022-11-09T11:21:39.727Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><h2 id="一-前端开发的概念介绍及前端开发的核心"><a href="#一-前端开发的概念介绍及前端开发的核心" class="headerlink" title="一.前端开发的概念介绍及前端开发的核心"></a>一.前端开发的概念介绍及前端开发的核心</h2><blockquote><p> 前端的概念：用户可以直接看见并交互的界面,即浏览器上运行的用户交互界面 (浏览器端，客户端)。</p><p> 前端的基础技术栈：</p><p> HTML</p><p> CSS</p><p> JavaScript介绍</p><ol><li>JavaScript 诞生于 1995 年。布兰登·艾奇（Brendan Eich）开发。</li><li>JavaScript是一种轻量级、解释型的Web开发脚本语言</li><li>浏览器脚本语言，可以编写运行在浏览器上的程序</li><li>负责编写页面特效、调用浏览器的API(BOM)、操作改变页面内容(DOM)，从后端获取数据(Ajax)，渲染页面等</li><li>文件后缀：.js</li></ol><p> 前端核心工作组成部分：</p><ol><li>数据渲染（根据数据设计html结构，渲染页面，展示页面…….）</li><li>用户体验（网页效果，表单验证，其他功能……）</li><li>性能优化（精灵图，懒加载 ，代码的压缩合并，图片的压缩合并，css的预编译…….）</li></ol></blockquote><h2 id="二-javascript的核心组成及如何运行Js"><a href="#二-javascript的核心组成及如何运行Js" class="headerlink" title="二.javascript的核心组成及如何运行Js"></a>二.javascript的核心组成及如何运行Js</h2><blockquote><p> 1.javascript的核心组成</p><p> 核心（ECMAScript）：描述了该语言的语法和基本对象。</p><p> 文档对象模型（DOM）：描述处理网页内容的方法和接口</p><p> 浏览器对象模型（BOM）：描述与浏览器进行交互的方法和接口。</p></blockquote><blockquote><p> 2.如何引入js文件</p><p> 引入外部js</p><pre><code>&lt;script src=&quot;.js文件存放路径&quot;&gt;&lt;/script&gt;这个方法是在外部单独建立一个js文件，页面中所有的js都在这一个页面中。易于维护，方便多次使用。</code></pre><p> 当前页面中</p><pre><code>直接把js效果写在&lt;script&gt;&lt;/script&gt;标签中即可。这部分内容可以放在页面中的任何位置。但是一般放在页面的底部。这样的话便于页面加载完成再执行js文件。</code></pre></blockquote><h2 id="三-变量的概念-重点"><a href="#三-变量的概念-重点" class="headerlink" title="三. 变量的概念 - 重点"></a>三. 变量的概念 - 重点</h2><blockquote><p>1.概念：</p><p>所谓变量，就是特定时间用于保存特定值的一个名字而已，并且初始化后可以再次改变的量。</p></blockquote><blockquote><p>2.声明定义：</p><p>使用 var 操作符（var是关键字），后面跟一个变量名（变量名是标识符）,声明多个变量的时候，可以在一行或者多行操作，只要把每个变量用逗号分隔开即可，但最好分行写，可读性佳。</p></blockquote><blockquote><p>3.变量的特点</p><p>初始化后可以再次改变</p><p>变量是松散类型的，可以用来保存任何类型的数据。</p><p>变量提升</p><p>同时声明多个</p><p>写入内存</p></blockquote><blockquote><p>4.命名规则： </p><p>数字、字母、下划线、$符号组成，其中数字不能做开头。并且变量名应做到见名知意，常用的方式有驼峰命名法，匈牙利命名法，同时变量名不能是保留字或者关键字  。</p><p>驼峰命名：第二个单词开始，首字母大写。</p><p>大驼峰：第一个单词的首字母大写  UserName</p><p>小驼峰：第二个单词开始首字母大写 userName &#x2F; getElementById()</p></blockquote><blockquote><p>5.保留字和关键字</p></blockquote><blockquote><p>关键字：一组具有特定用途的关键字，这些关键字可用于表示控制语句的开始或结束，或者用于执行特定操作等。</p></blockquote><pre><code>break do instanceof typeof case else new var catch finally return void  continue for switch while debugger function this with default if throw delete in try</code></pre><blockquote><p>保留字：尽管保留字在这门语言中还没有任何特定的用途，但它们有可能在将来被用作关键字。</p></blockquote><pre><code>abstract enum int short boolean export interface static byte extends long super char final native synchronizedclass float package throws const goto private transient debugger implements protected volatile double import public</code></pre><h2 id="四-变量的数据类型"><a href="#四-变量的数据类型" class="headerlink" title="四.变量的数据类型"></a>四.变量的数据类型</h2><blockquote><p>ECMAScript5 之前有 5 种简单数据类型：number数字 、 string字符串、boolean布尔值、undefined未定义、null空对象。</p><p>还有一种复杂数据类型（引用类型）——object</p><p>检测变量类型的方法：typeof( 变量名 ) 或者 typeof  变量名</p><p>变量的数据类型（Undefined、Null：特殊类型）</p><p>注意：typeof可以输出变量的数据类型，但这个数据类型的类型都是字符串。</p></blockquote><h2 id="五-赋值、数学、关系运算符"><a href="#五-赋值、数学、关系运算符" class="headerlink" title="五.赋值、数学、关系运算符"></a>五.赋值、数学、关系运算符</h2><blockquote><p>1.赋值运算符 &#x3D; 将等式右边的结果赋值给左边。</p><p>javascript使用“ &#x3D; ”运算符来给变量或者属性赋值（最低优先级）</p><p>复合赋值操作 +&#x3D;、-&#x3D;、*&#x3D;、&#x2F;&#x3D;、%&#x3D; 带操作的复合赋值运算,（更快捷，更优）。</p></blockquote><blockquote><p>2.数学运算符  +  -  *  &#x2F;  %</p><p>+：求和，连接字符作用（字符串和变量之间使用+号进行拼接）</p><p>%：求余数（求模）    </p></blockquote><blockquote><p>3.关系运算符（结果为布尔值） &lt;、&gt;、&lt;&#x3D;、&gt;&#x3D;、&#x3D;&#x3D;( 相等 )、&#x3D;&#x3D;&#x3D;（全等）、!&#x3D;(不相等)  !&#x3D;&#x3D;（不全等）</p><p>理解&#x3D;、&#x3D;&#x3D;、&#x3D;&#x3D;&#x3D;运算符之间的区别。</p><p>理解相等和恒等运算符</p></blockquote><h2 id="六-逻辑运算符"><a href="#六-逻辑运算符" class="headerlink" title="六.逻辑运算符"></a>六.逻辑运算符</h2><blockquote><p>逻辑与(&amp;&amp;)操作可以应用于任何类型的操作数，而不仅仅是布尔值。在有一个操作数不是布尔值的情况下，</p><p>逻辑与操作就不一定返回布尔值。逻辑与操作属于短路操作，即如果第一个操作数能够决定结果，那么就不</p><p>会再对第二个操作数求值。</p></blockquote><blockquote><p>逻辑或(||)和逻辑与操作相似，如果有一个操作数不是布尔值，逻辑或也不一定返回布尔值，逻辑或操作符也</p><p>是短路操作符。也就是说，如果第一个操作数的求值结果为true ，就不会对第二个操作数求值了。</p></blockquote><blockquote><p>逻辑非操作符由一个叹号（！）表示，可以应用于 ECMAScript 中的任何值。无论这个值是什么数据类型，</p><p>这个操作符都会返回一个布尔值。逻辑非操作符首先会将它的操作数转换为一个布尔值，然后再对其求反。</p></blockquote><blockquote><p>总结</p><p>逻辑与找的假的立刻结束，形成短路，</p><p>逻辑或找到真的立刻结束，形成短路。</p></blockquote><h2 id="七-一元运算符"><a href="#七-一元运算符" class="headerlink" title="七.一元运算符"></a>七.一元运算符</h2><blockquote><p>一元运算符：++    – </p><p>只能操作一个值的操作符叫做一元操作符，是 ECMAScript 中最简单的操作符。</p><p>前置型应该位于要操作的变量之前，先将操作数+1或者减1，再参与运算。</p><p>后置型则应该位于要操作的变量之后，先参与运算后自身再+1或者减1。</p></blockquote><h2 id="八-变量不同类型之间的转换"><a href="#八-变量不同类型之间的转换" class="headerlink" title="八.变量不同类型之间的转换"></a>八.变量不同类型之间的转换</h2><blockquote><p>1.显式转换：利用系统提供的函数(具有特定功能的代码块组成)强制转换或者手动转换</p><p>强制转换方法：Number( ) 、String( )、Boolean( )</p><p>字符串转数字：parseInt( )、parseFloat( )</p></blockquote><blockquote><p>2.隐式转换：系统自动根据当前的符号进行转换 </p><p>+ - * &#x2F;  %  &#x3D;&#x3D;  ++  –  !  ……</p></blockquote><h2 id="九-NaN和isNaN介绍"><a href="#九-NaN和isNaN介绍" class="headerlink" title="九.NaN和isNaN介绍"></a>九.NaN和isNaN介绍</h2><blockquote><p>NaN的概念及应用</p><p>当数学计算无法得到数字结果，该变量的值为NaN(not a number)  </p><p>注意：因为NaN代表非数字，它不等于任何值，也不能做运算，</p><p>即使alert(NaN &#x3D;&#x3D; NaN); 结果也是false     typeof NaN &#x3D;&#x3D;&#x3D;‘number’</p><p>isNaN(num)方法，该方法判断num变量的值是否是NaN（不是一个数字）,结果是布尔值,如果num不是一个数字输出true</p></blockquote><h2 id="十-csdn搜的题"><a href="#十-csdn搜的题" class="headerlink" title="十.csdn搜的题"></a>十.csdn搜的题</h2><blockquote><p>1.为抵抗洪水，战士连续作战89小时，编程计算共多少天零多少小时？</p><p>2.var k&#x3D;0;  console.log(k++ + ++k +k +k++ );</p><p>3.输入一个五位数，分别输出个十百千万位；</p><p>4.基本测试题，并写出详细理由;</p><pre><code>var bar = true;console.log(bar + 0);console.log(bar + &quot;xyz&quot;);console.log(bar + true);console.log(bar + false);</code></pre></blockquote><blockquote><pre><code>console.log(1 == true);console.log(1 === true);console.log(isNaN(23));console.log(isNaN(&#39;shuai&#39;));console.log(isNaN(&#39;321shuai&#39;));console.log(isNaN(&#39;321&#39;));console.log(NaN === NaN);console.log(typeof NaN);console.log(1 + +&quot;2&quot; + &quot;2&quot;);console.log(&quot;A&quot; - &quot;B&quot; + &quot;2&quot;);console.log(&quot;A&quot; - &quot;B&quot; + 2);console.log(0 || 2 || 1)console.log(0 &amp;&amp; 0 &amp;&amp; false);console.log(0.2 + 0.4 == 0.6);console.log(Boolean(&#39;0&#39;));</code></pre><p>5.基本测试题，并写出理由;</p><pre><code>var a = 10;var b = 20;var c = 10;console.log(a = b);console.log(a == b);console.log(a == c);</code></pre></blockquote><h2 id="十一-学习网站"><a href="#十一-学习网站" class="headerlink" title="十一.学习网站"></a>十一.学习网站</h2><blockquote><p>CSDN：<a href="https://www.csdn.net/">https://www.csdn.net/</a> </p><p>力扣： <a href="https://leetcode-cn.com/problemset/all/">https://leetcode-cn.com/problemset/all/</a></p><p>牛客网：<a href="https://www.nowcoder.com/">https://www.nowcoder.com/</a></p></blockquote><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;参考文档&quot;&gt;&lt;a href=&quot;#参考文档&quot; class=&quot;headerlink&quot; title=&quot;参考文档&quot;&gt;&lt;/a&gt;参考文档&lt;/h2&gt;&lt;h2 id=&quot;一-前端开发的概念介绍及前端开发的核心&quot;&gt;&lt;a href=&quot;#一-前端开发的概念介绍及前端开发的核心&quot; class</summary>
+      
+    
+    
+    
+    <category term="web前端" scheme="https://rootbtn.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="web前端" scheme="https://rootbtn.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://rootbtn.github.io/2022/11/08/hello-world/"/>
+    <id>https://rootbtn.github.io/2022/11/08/hello-world/</id>
+    <published>2022-11-08T13:27:37.274Z</published>
+    <updated>2022-11-09T11:06:35.506Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+    <category term="Hello World" scheme="https://rootbtn.github.io/tags/Hello-World/"/>
+    
+  </entry>
+  
+</feed>
